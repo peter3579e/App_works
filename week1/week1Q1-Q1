@@ -1,0 +1,23 @@
+Q1
+a. ​val id = 9527  
+ans: Correct 
+b. ​var number : Int = 5.6  
+ans: Incorrect. Because the number is a floating number, instead of an integer.
+c. ​var title = "Hello Kotlin!"  
+ans: correct
+d. ​val content : String = null  
+ans: incorrect. Should input a value instead of a string.
+e. ​val number : Double? = 556.6  
+ans: Correct
+f. ​var list: List<String>? = ​listOf​(null, null)
+ans:Incorrect. Needs to input an argument instead of null
+g. ​var list: List<String?>? = ​listOf​("Wayne", "Chen")  
+ans: the question mark shouldn't be inside the bracket 
+h. ​list.size  
+ans: Correct 
+i. ​list?.size
+ans: Incorrect. shouldn't have question mark in the statement 
+Q2
+ ans: c. ​"Your grace."
+Q3
+ans:  d. ​val array = Array(6) ​{ ​1000.0.pow(​it​) ​}
