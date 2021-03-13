@@ -36,35 +36,31 @@ fun main(args: Array<String>){
 
  */
 
+/*
+println("Enter ur mana : ")
+val scan = Scanner(System.`in`)
+val mana = scan.nextLine()
 
+ */
 
 //Q6 First week assignment
-open class Human(var name: String="Pikachu"){
+
+open class Human(val name: String="Pikachu", open var mana: Boolean =false){
+
     open fun attack(){
         println("$name use Fist Attack!")
     }
 }
-class Mage : Human(){
+class Mage() : Human(){
     override fun attack(){
         println("$name use Fireball!")
     }
+    override var mana: Boolean =true
 }
 fun main(args: Array<String>) {
+    val l1 = Human()
 
-    /*
-    println("Enter ur character : ")
-    val scan = Scanner(System.`in`)
-    val n = scan.nextLine()
-
-     */
-
-    var mana:Boolean? = true
-    if ( mana == true) {
-        var l1 = Mage()
-        l1.attack()
-    }
-    if (mana == false) {
-        var l1 = Human()
+    if (l1.mana == false) {
         l1.attack()
     }
 }
