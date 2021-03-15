@@ -16,11 +16,22 @@ fun main(args: Array<String>){
 Q3:
 ans: Sharepreference function is the most commnly used Key-value pair collection in Android
 
-val sharedPreference =  getSharedPreferences("PREFERENCE_NAME", Context.MODE_PRIVATE)
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        val sharedPreference =  getSharedPreferences("PREFERENCE_NAME", Context.MODE_PRIVATE)
         var editor = sharedPreference.edit()
-        editor.putString("Peter","Anupam")
+        editor.putString("Peter","Jack")
         editor.putLong("l",100L)
         editor.apply()
+        //println("111")
+        //println(sharedPreference.getAll())
+        sharedPreference.getAll().forEach {
+            println("Preferences values "+ it.key + ": " + it.value)
+        }
+    }
+}
  
 
 Q4
