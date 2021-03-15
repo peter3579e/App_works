@@ -18,6 +18,6 @@ ans: Correct
 i. ​list?.size
 ans: Incorrect. shouldn't have question mark in the statement 
 Q2
- ans: c. ​"Your grace."
+ans: c. ​"Your grace." After using length function to find out the length of the sentence is 39, which corresponding to the output "Your grace."
 Q3
-ans:  d. ​val array = Array(6) ​{ ​1000.0.pow(​it​) ​}
+ans:  d. ​val array = Array(6) ​{ ​1000.0.pow(​it​) ​}. Because there 10^3 difference between each unit. Therefor, pow(it) is the right answer.
