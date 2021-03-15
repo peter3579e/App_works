@@ -1,0 +1,42 @@
+Q1.
+ans: 繼承是創建類層次結構的概念，其中我們根據需要在基類的子類中覆蓋基類的屬性和功能。
+繼承允許代碼可重用。
+Q2.
+ans: Use split function. The location of where the sentence split, depending on the object filled inside the brackets.
+
+fun main(args: Array<String>){
+    val currentString = "Peter: Let's go to bed"
+    val separated = currentString.split(":").toTypedArray()
+    separated[0] 
+    separated[1]
+    print(separated[0])
+    println()
+    print(separated[1])
+}
+Q3:
+ans: Sharepreference function is the most commnly used Key-value pair collection in Android
+
+val sharedPreference =  getSharedPreferences("PREFERENCE_NAME", Context.MODE_PRIVATE)
+        var editor = sharedPreference.edit()
+        editor.putString("Peter","Anupam")
+        editor.putLong("l",100L)
+        editor.apply()
+ 
+
+Q4
+ans:
+Array是index based的結構，LinkedList則是Reference based。
+Array會存在sequential memory locations，LinkedList則是sequence of the elements，每一個element都會link下一個element。
+Array裡面會儲存同樣結構的資料，可以是Primitive Data Type或是Object Data Type，LinkedList裡面每個儲存的Object都會包含Data與Link。
+Array可以先宣告要多大的空間，LinkedList則不受限。
+Array存取資料需要index，LinkedList需要從頭開始尋找資料。
+
+Q5
+ans:
+val to declare a constant or var keywords to declare a variable. You can specify a type such as String or Int after the variable name.
+
+Q6
+ans: Maximum int size is 32 bits with number 2147483647.
+Long is the variable which contain greater Maximum limit than Int with number 2^63-1.
+
+
