@@ -25,6 +25,7 @@
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="clear">Clear</string>
+    <string name="information">information</string>
 
     <!-- contentDescription strings for quality icons -->
     <string name="quality_0">Sleep Quality 0</string>
@@ -40,7 +41,6 @@
     <string name="end_time"><![CDATA[<b>End:</b>]]></string>
     <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
     <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
-    <string name="information"><![CDATA[<b>information:</b>]]></string>
 
     <!-- Sleep quality strings -->
     <string name="how_was_hour_sleep">How was your sleep?</string>

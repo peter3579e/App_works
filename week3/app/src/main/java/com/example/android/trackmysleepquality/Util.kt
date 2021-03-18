@@ -88,8 +88,9 @@ fun formatNights(nights: List<SleepNight>, resources: Resources): Spanned {
                 append("\t${convertLongToDateString(it.endTimeMilli)}<br>")
                 append(resources.getString(R.string.quality))
                 append("\t${convertNumericQualityToString(it.sleepQuality, resources)}<br>")
+                //sleep information
                 append(resources.getString(R.string.information))
-                //append("\t ${it.sleepinfo}")
+                append("\t ${it.sleepinfo}<br>")
                 append(resources.getString(R.string.hours_slept))
                 // Hours
                 append("\t ${it.endTimeMilli.minus(it.startTimeMilli) / 1000 / 60 / 60}:")

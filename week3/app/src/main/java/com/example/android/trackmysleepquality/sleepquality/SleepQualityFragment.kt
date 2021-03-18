@@ -29,6 +29,7 @@ import com.example.android.trackmysleepquality.R
 import com.example.android.trackmysleepquality.database.SleepDatabase
 import com.example.android.trackmysleepquality.databinding.FragmentSleepQualityBinding
 
+
 /**
  * Fragment that displays a list of clickable icons,
  * each representing a sleep quality rating.
