@@ -1,0 +1,24 @@
+Q1. 
+Encapsulation wraps up of data member and member functions together into a single unit (i.e. Class) .
+
+Benefit: 
+1. Protects the code by preventing access from the outside class
+2. Hiding the data from the users
+
+Q2.
+An enum is a special "class" that represents a group of constants (unchangeable variables, like final variables) without declaring them one by one.
+
+Using enums increase the level of abstraction and lets the programmer think about what the values mean rather than worry about how they are stored and accessed.
+
+Q3. 
+enum class Direction {
+    NORTH, SOUTH, WEST, EAST
+}
+
+Q4.
+Linearlayout is a type of view group which of responsible for holding views in it either Horizontally or vertically. It is a type of Layout where one can arrange groups either Horizontally or Vertically.
+
+Relative layout is a layout in which we can arrange views/widgets according to the position of other view/widgets. It is independent of horizontal and vertical view and we can arrange it according to once satisfaction.
+
+Q5. 
+ConstraintLayout is a layout manager for Android which allows you to position and size widgets in a flexible way. It's available for both the Android view system and Jetpack Compose.
