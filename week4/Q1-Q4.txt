@@ -1,0 +1,19 @@
+Q1.
+ANS: 多態性是：任何subclass都可以用作使用程式的一部分。這意味著我們可以編寫更簡單，更易於理解，更易於修改或更改的代碼。並依賴於這樣的事實：無論將其子類化多少次，在某些參數內，代碼仍然可以工作。
+
+Q2.
+ANS:
+i. onCreate called when activity is first created.
+ii.onStart called when activity is becoming visible to the user
+iii.onResume called when activity will start interacting with the user
+iv.onPause called when activity is not visible to the user. Therefore the activity will be paused.
+v.onStop called when activity is no longer visible to the user. And the data will be stored at the background operation.
+vi. onDestory called before the activity is destroyed and all the stored data will be destroyed.	
+
+Q3.
+Jetpack is a suite of libraries to help developers follow best practices, reduce boilerplate code, and write code that works consistently across Android versions and devices so that developers can focus on the code they care about.
+
+Q4. 
+A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously. 
+
+On Android, coroutines help to manage long-running tasks that might otherwise block the main thread and cause your app to become unresponsive. Over 50% of professional developers who use coroutines have reported seeing increased productivity. 
